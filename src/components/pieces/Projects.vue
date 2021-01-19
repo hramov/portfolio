@@ -1,0 +1,51 @@
+<template>
+  <div class="container">
+    <h2>Проекты</h2>
+
+    <div class="card mb-3" v-for="project in projects" :key="project.id">
+      <div class="row">
+        <div class="col-4">
+          <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
+          <img v-if="project.id == '2'" src="/img/altay.jpg" alt="..." />
+          <img v-if="project.id == '3'" src="/img/gazprombank.jpg" alt="..." />
+          <img v-if="project.id == '4'" src="/img/ais.jpg" alt="..." />
+          <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
+        </div>
+        <div class="col-8">
+          <div class="card-body">
+            <h5 class="card-title">{{ project.title }}</h5>
+            <p>
+              <small>Роль: {{ project.role }}</small>
+            </p>
+            <p>
+              <small>Технологии: {{ project.tech.join(', ') }}</small>
+            </p>
+            <p class="card-text">{{ project.description }}</p>
+            <p class="card-text">
+              <small class="text-muted">{{ project.misc }}</small>
+              <br />
+              <small
+                v-if="project.github.split('')[0] == 'h'"
+                class="text-muted"
+                ><a :href="project.github">Github репозиторий</a></small
+              >
+              <small v-else class="text-muted">{{ project.github }}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["projects"],
+};
+</script>
+
+<style scoped>
+img {
+  width: 300px;
+}
+</style>
