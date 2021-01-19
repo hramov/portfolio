@@ -1,10 +1,10 @@
 <template>
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Pricing</h1>
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="margin-bottom: -10px;">
+    <h1 class="display-6">Привет!</h1>
     <p class="lead">
-      Quickly build an effective pricing table for your potential customers with
-      this Bootstrap example. It’s built with default Bootstrap components and
-      utilities with little customization.
+      Давай познакомимся поближе.
+      Чтобы ты мог составить полное мнение обо мне и моих знаниях, я расписал небольшую интерпретацию своего резюме ниже. 
+      Приятного погружения.
     </p>
   </div>
 </template>

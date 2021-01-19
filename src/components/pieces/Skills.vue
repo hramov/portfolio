@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <h2>Навыки</h2>
-    <div>
-      <table class="table">
+    <div class="table-responsive">
+      <table class="table table-reflow">
         <thead>
           <tr>
             <th scope="col">Технология</th>
-            <th scope="col">Опыт работы</th>
-            <th scope="col">Количество проектов</th>
+            <th scope="col">Опыт работы, лет</th>
+            <th scope="col">Количество проектов, шт</th>
             <th scope="col">Уверенность использования</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="skill in skills" :key="skill.id">
             <td>{{ skill.title }}</td>
-            <td>{{ skill.yoe }}</td>
-            <td>{{ skill.prCount }}</td>
+            <td class="text-center">{{ skill.yoe }}</td>
+            <td class="text-center">{{ skill.prCount }}</td>
             <td>
               <div style="overflow: hidden">
                 <div style="width: 100%">
@@ -36,12 +36,3 @@ export default {
   props: ["skills"],
 };
 </script>
-
-<style scoped>
-.rect-green {
-  width: 20px;
-  height: 20px;
-  background-color: green;
-  border: 1px solid black;
-}
-</style>

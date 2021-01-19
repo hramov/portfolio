@@ -4,14 +4,14 @@
 
     <div class="card mb-3" v-for="project in projects" :key="project.id">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
           <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
           <img v-if="project.id == '2'" src="/img/altay.jpg" alt="..." />
           <img v-if="project.id == '3'" src="/img/gazprombank.jpg" alt="..." />
           <img v-if="project.id == '4'" src="/img/ais.jpg" alt="..." />
           <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
           <div class="card-body">
             <h5 class="card-title">{{ project.title }}</h5>
             <p>

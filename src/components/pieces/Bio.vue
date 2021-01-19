@@ -2,27 +2,20 @@
   <div class="container">
     <h2>Биография</h2>
     <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <img src="/img/me.jpg" />
       </div>
-      <div class="col-8">
+      <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          blanditiis dolorum sunt ipsam repellat, suscipit perferendis rem eaque
-          non, quo numquam tenetur velit? Voluptates quo accusantium adipisci,
-          odit itaque corrupti.
+          Мне 23 года, из которых <strong>более шести</strong> я занимаюсь программированием в свободное от основной деятельности время.
+          Было перепробовано множество языков: от C/С++ до Python и JS.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          blanditiis dolorum sunt ipsam repellat, suscipit perferendis rem eaque
-          non, quo numquam tenetur velit? Voluptates quo accusantium adipisci,
-          odit itaque corrupti.
+          Более целенаправленно начал заниматься программированием после университета. Изучил <strong>JavaScript/NodeJS, VueJS</strong> и сопутствующие библиотеки.
+          На текущий момент имею опыт коммерческой разработки на данном стеке <strong>чуть больше года.</strong>
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          blanditiis dolorum sunt ipsam repellat, suscipit perferendis rem eaque
-          non, quo numquam tenetur velit? Voluptates quo accusantium adipisci,
-          odit itaque corrupti.
+          В качестве зарядки для ума изучаю <strong>TypeScript + NestJS и Vue3 на TypeScript.</strong>
         </p>
       </div>
     </div>
@@ -32,6 +25,6 @@
 <style scoped>
 img {
   width: 250px;
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 </style>

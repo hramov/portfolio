@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Junior JS Developer</a>
+      <a class="navbar-brand" href="/" style="color: green">HIRE ME!</a>
       <button
         class="navbar-toggler"
         type="button"
