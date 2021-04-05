@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/" style="color: green">HIRE ME!</a>
+      <a class="navbar-brand" href="/" style="color: black"
+        >FULL-STACK DEVELOPER PAGE</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -14,8 +16,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
         <form class="d-flex">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -37,7 +38,10 @@
                       <img src="/img/icons/telegram.png" />
                     </div>
                     <div class="col-10">
-                      <a class="dropdown-item" target="_blank" href="https://t.me/therealhramov"
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://t.me/therealhramov"
                         >Telegram</a
                       >
                     </div>
@@ -49,7 +53,10 @@
                       <img src="/img/icons/instagram.png" />
                     </div>
                     <div class="col-10">
-                      <a class="dropdown-item" target="_blank" href="https://instagram.com/therealhramov"
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://instagram.com/therealhramov"
                         >Instagram</a
                       >
                     </div>
@@ -61,7 +68,10 @@
                       <img src="/img/icons/twitter.png" />
                     </div>
                     <div class="col-10">
-                      <a class="dropdown-item" target="_blank" href="https://twitter.com/therealhramov"
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://twitter.com/therealhramov"
                         >Twitter</a
                       >
                     </div>
@@ -73,13 +83,15 @@
                       <img src="/img/icons/linkedin.png" />
                     </div>
                     <div class="col-10">
-                      <a class="dropdown-item" target="_blank" href="https://linkedin.com/therealhramov"
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://linkedin.com/therealhramov"
                         >LinkedIn</a
                       >
                     </div>
                   </div>
                 </li>
-                
               </ul>
             </li>
             <li class="nav-item">
@@ -88,6 +100,7 @@
                 href="https://barnaul.hh.ru/resume/3bb845edff085c77380039ed1f503377556645"
                 tabindex="-1"
                 style="color: green"
+                target="_blank"
                 >Резюме</a
               >
             </li>

@@ -4,12 +4,16 @@
 
     <div class="card mb-3" v-for="project in projects" :key="project.id">
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-sm-6 col-xs-12"
+          style="margin-top: 20px"
+        >
           <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
           <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
           <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
           <img v-if="project.id == '4'" src="/img/gazprombank.jpg" alt="..." />
           <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
+          <img v-if="project.id == '6'" src="/img/battleship.png" alt="..." />
         </div>
         <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
           <div class="card-body">
@@ -18,7 +22,7 @@
               <small>Роль: {{ project.role }}</small>
             </p>
             <p>
-              <small>Технологии: {{ project.tech.join(', ') }}</small>
+              <small>Технологии: {{ project.tech.join(", ") }}</small>
             </p>
             <p class="card-text">{{ project.description }}</p>
             <p class="card-text">
@@ -27,7 +31,9 @@
               <small
                 v-if="project.github.split('')[0] == 'h'"
                 class="text-muted"
-                ><a :href="project.github">Github репозиторий</a></small
+                ><a :href="project.github" target="_blank"
+                  >Github репозиторий</a
+                ></small
               >
               <small v-else class="text-muted">{{ project.github }}</small>
             </p>

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <HomeHeader class="piece"/>
+    <HomeHeader class="piece" />
     <Bio class="piece" />
     <Skills class="piece" :skills="skills" />
     <Experience class="piece" :works="works" />
@@ -38,22 +38,29 @@ export default {
           id: 2,
           title: "VueJS",
           yoe: 1,
-          prCount: 3,
+          prCount: 4,
           confidence: 8,
         },
         {
           id: 3,
           title: "Express",
           yoe: 1,
-          prCount: 3,
+          prCount: 2,
           confidence: 7,
         },
+        // {
+        //   id: 4,
+        //   title: "TypeScript / NestJS",
+        //   yoe: 0.5,
+        //   prCount: 1,
+        //   confidence: 2,
+        // },
         {
-          id: 2,
-          title: "TypeScript / NestJS",
+          id: 4,
+          title: "Golang",
           yoe: 0.5,
           prCount: 1,
-          confidence: 2,
+          confidence: 3,
         },
       ],
       works: [
@@ -63,7 +70,7 @@ export default {
           rank: "Старший группы разработки",
           time: 1,
           description:
-            "Разработка элементов системы с использованием Docker-контейнеров, интеграция их с другими элементами и сервисами, руководство членами группы, выполнение треований заказчиков проекта, расчет трудозатрат.",
+            "Разработка элементов системы с использованием Docker-контейнеров, интеграция их с другими элементами и сервисами, руководство членами группы, выполнение требований заказчиков проекта, расчет трудозатрат.",
           isNow: false,
         },
         {
@@ -82,7 +89,7 @@ export default {
           title:
             "Автономная система поиска и анализа новостных материалов в средствах массовой информации",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores eius quaerat, natus quasi sint, animi error cupiditate rerum porro recusandae voluptate! Recusandae quae voluptate tempore. Ducimus nesciunt voluptates animi?",
+            "Система представляет собой интернет-краулер, который в режиме реального времени собирает, анализирует и представляет в удобном виде информацию по интересующему запросу и ее стилистичекую окраску.",
           role: "Full stack developer",
           tech: [
             "JS",
@@ -94,13 +101,13 @@ export default {
             "Socket.io",
           ],
           misc: "В интересах ГВЦ ВС РФ",
-          github: "Приватный репозиторий",
+          github: "https://github.com/hramov/newser",
         },
         {
           id: 2,
           title: 'Система поддержки мероприятий ВИТ "ЭРА"',
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores eius quaerat, natus quasi sint, animi error cupiditate rerum porro recusandae voluptate! Recusandae quae voluptate tempore. Ducimus nesciunt voluptates animi?",
+            "Автоматизированная система, позволяющая добавлять мероприятия до тройной степени вложенности из файла Excel специального формата, гостей мероприятия с привязкой к определенным мероприятиям, генерировать уникальные QR-коды для проверки валидности гостя с отметкой о том, что он вошел на территорию.",
           role: "Full stack developer",
           tech: ["JS", "NodeJS", "VueJS", "Postgres"],
           misc: 'В интересах ВИТ "ЭРА"',
@@ -110,7 +117,7 @@ export default {
           id: 3,
           title: "Ай Алтай",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores eius quaerat, natus quasi sint, animi error cupiditate rerum porro recusandae voluptate! Recusandae quae voluptate tempore. Ducimus nesciunt voluptates animi?",
+            "Проект для хакатона Цифровой прорыв, кейс Республики Алтай для вовлечения жителей в жизнь региона.",
           role: "Full stack developer",
           tech: ["JS", "NodeJS", "VueJS", "PHP", "Laravel"],
           misc: 'ТОП-23 всероссийского хакатона "Цифровой прорыв"',
@@ -120,7 +127,7 @@ export default {
           id: 4,
           title: 'Корпоративный портал ПАО "Газпромбанк"',
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores eius quaerat, natus quasi sint, animi error cupiditate rerum porro recusandae voluptate! Recusandae quae voluptate tempore. Ducimus nesciunt voluptates animi?",
+            "Проект для хакатона Цифровой прорыв. Кейс Газпромбанка для становления и развития корпоративной культуры с элементами геймификации",
           role: "Full stack developer",
           tech: ["JS", "NodeJS", "VueJS", "PHP", "Laravel"],
           misc: 'ТОП-9 всероссийского хакатона "Цифровой прорыв"',
@@ -131,11 +138,21 @@ export default {
           title:
             "Система анализа словарного запаса рэп-исполнителей на основе данных с сайта genius.com",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores eius quaerat, natus quasi sint, animi error cupiditate rerum porro recusandae voluptate! Recusandae quae voluptate tempore. Ducimus nesciunt voluptates animi?",
+            "Интернет-парсер текстов исполнителей с извлечением уникальных слов и их подсчетом.",
           role: "NodeJS developer",
           tech: ["JS", "NodeJS"],
           misc: "Личный проект",
           github: "https://github.com/hramov/gean",
+        },
+        {
+          id: 6,
+          title: "Морской бой (клиент-серверное приложение)",
+          description:
+            "Классическая игра с возможностью организации многопользовательского режима игры.",
+          role: "Golang developer",
+          tech: ["Golang", "Websockets"],
+          misc: "Личный проект",
+          github: "https://github.com/hramov/battleship",
         },
       ],
     };
