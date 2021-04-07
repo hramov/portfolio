@@ -2,18 +2,30 @@
   <div class="container">
     <h2>Проекты</h2>
 
-    <div class="card mb-3" v-for="project in projects" :key="project.id">
+    <div
+      class="card mb-3"
+      v-for="project in projects"
+      :key="project.id"
+      style="background-color: #000011 !important"
+    >
       <div class="row">
         <div
           class="col-lg-4 col-md-6 col-sm-6 col-xs-12"
           style="margin-top: 20px"
+          align="center"
         >
-          <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
-          <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
-          <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
-          <img v-if="project.id == '4'" src="/img/gazprombank.jpg" alt="..." />
-          <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
-          <img v-if="project.id == '6'" src="/img/battleship.png" alt="..." />
+          <div style="opacity: 50%; background-color: black">
+            <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
+            <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
+            <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
+            <img
+              v-if="project.id == '4'"
+              src="/img/gazprombank.jpg"
+              alt="..."
+            />
+            <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
+            <img v-if="project.id == '6'" src="/img/battleship.png" alt="..." />
+          </div>
         </div>
         <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
           <div class="card-body">

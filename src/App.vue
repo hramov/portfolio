@@ -14,13 +14,17 @@ export default {
     return {};
   },
   components: {
-    Header
+    Header,
   },
 };
 </script>
 
 <style>
-  p {
-    text-align: justify;
-  }
+* {
+  background-color: #000011;
+  color: #e4fcce;
+}
+p {
+  text-align: justify;
+}
 </style>

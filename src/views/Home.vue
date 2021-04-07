@@ -1,15 +1,23 @@
 <template>
-  <div class="container">
-    <HomeHeader class="piece" />
-    <Bio class="piece" />
-    <Skills class="piece" :skills="skills" />
-    <Experience class="piece" :works="works" />
-    <Projects class="piece" :projects="projects" />
+  <div class="container" style="margin-bottom: 50px; margin-top: 70px">
+    <!-- <HomeHeader /> -->
+    <section>
+      <Bio class="piece" />
+    </section>
+    <section>
+      <Skills class="piece" :skills="skills" />
+    </section>
+    <section>
+      <Experience class="piece" :works="works" />
+    </section>
+    <section>
+      <Projects class="piece" :projects="projects" />
+    </section>
   </div>
 </template>
 
 <script>
-import HomeHeader from "./../components/pieces/HomeHeader";
+// import HomeHeader from "./../components/pieces/HomeHeader";
 import Bio from "./../components/pieces/Bio";
 import Skills from "./../components/pieces/Skills";
 import Experience from "./../components/pieces/Experience";
@@ -17,7 +25,7 @@ import Projects from "./../components/pieces/Projects";
 
 export default {
   components: {
-    HomeHeader,
+    // HomeHeader,
     Bio,
     Skills,
     Experience,
@@ -30,21 +38,21 @@ export default {
         {
           id: 1,
           title: "JavaScript / NodeJS",
-          yoe: 1,
+          yoe: 1.5,
           prCount: 5,
           confidence: 8,
         },
         {
           id: 2,
           title: "VueJS",
-          yoe: 1,
+          yoe: 1.5,
           prCount: 4,
           confidence: 8,
         },
         {
           id: 3,
           title: "Express",
-          yoe: 1,
+          yoe: 1.5,
           prCount: 2,
           confidence: 7,
         },
@@ -163,5 +171,19 @@ export default {
 <style scoped>
 .piece {
   margin-bottom: 3rem;
+  border: 1px solid #e4fcce;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section {
+  background-color: black;
+  opacity: 20%;
+}
+
+section:hover {
+  background-color: #000011;
+  opacity: 100%;
+  cursor: pointer;
 }
 </style>

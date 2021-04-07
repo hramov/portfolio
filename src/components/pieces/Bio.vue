@@ -2,8 +2,10 @@
   <div class="container">
     <h2>Биография</h2>
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-        <img src="/img/me.jpg" />
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
+        <div style="opacity: 50%; background-color: black">
+          <img src="/img/me.jpg" />
+        </div>
       </div>
       <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
         <p>
@@ -30,5 +32,6 @@
 img {
   width: 250px;
   margin-bottom: 10px;
+  margin: 0 auto;
 }
 </style>
