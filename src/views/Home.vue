@@ -56,13 +56,13 @@ export default {
           prCount: 2,
           confidence: 7,
         },
-        // {
-        //   id: 4,
-        //   title: "TypeScript / NestJS",
-        //   yoe: 0.5,
-        //   prCount: 1,
-        //   confidence: 2,
-        // },
+        {
+          id: 4,
+          title: "TypeScript / NestJS",
+          yoe: 0.5,
+          prCount: 1,
+          confidence: 2,
+        },
         {
           id: 4,
           title: "Golang",
@@ -176,7 +176,7 @@ export default {
   border-radius: 10px;
 }
 
-section {
+/* section {
   background-color: black;
   opacity: 20%;
 }
@@ -185,5 +185,5 @@ section:hover {
   background-color: #000011;
   opacity: 100%;
   cursor: pointer;
-}
+} */
 </style>
