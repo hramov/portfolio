@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/" style="color: #e4fcce"
+      <a class="navbar-brand" href="/" style="color: black"
         >FULL-STACK DEVELOPER PAGE</a
       >
       <button
@@ -31,7 +31,7 @@
                 href="https://barnaul.hh.ru/resume/3bb845edff085c77380039ed1f503377556645"
                 tabindex="-1"
                 target="_blank"
-                style="color: #e4fcce"
+                style="color: black"
                 >Резюме</a
               >
             </li>
@@ -43,14 +43,14 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style="color: #e4fcce"
+                style="color: black"
               >
                 @therealhramov
               </a>
               <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdown"
-                style="background-color: #000011; border: 1px solid white"
+                
               >
                 <li>
                   <div class="row">
@@ -62,7 +62,6 @@
                         class="dropdown-item"
                         target="_blank"
                         href="https://t.me/therealhramov"
-                        style="color: #e4fcce"
                         >Telegram</a
                       >
                     </div>
@@ -78,7 +77,6 @@
                         class="dropdown-item"
                         target="_blank"
                         href="https://instagram.com/therealhramov"
-                        style="color: #e4fcce"
                         >Instagram</a
                       >
                     </div>
@@ -94,7 +92,6 @@
                         class="dropdown-item"
                         target="_blank"
                         href="https://twitter.com/therealhramov"
-                        style="color: #e4fcce"
                         >Twitter</a
                       >
                     </div>
@@ -110,7 +107,6 @@
                         class="dropdown-item"
                         target="_blank"
                         href="https://linkedin.com/therealhramov"
-                        style="color: #e4fcce"
                         >LinkedIn</a
                       >
                     </div>
@@ -126,14 +122,18 @@
 </template>
 
 <style scoped>
+
+a {
+  color: black
+}
 li img {
   width: 30px;
   padding: 5px;
 }
 
 .dropdown-item:hover {
-  background-color: #e4fcce !important;
-  color: #000011 !important;
+  /* background-color: black !important; */
+  /* color:bla !important; */
   text-align: center;
 }
 </style>

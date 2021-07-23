@@ -1,7 +1,7 @@
 <template>
   <Header />
   <br />
-  <main class="container">
+  <main>
     <router-view />
   </main>
 </template>
@@ -21,10 +21,10 @@ export default {
 
 <style>
 * {
-  background-color: #000011;
-  color: #e4fcce;
+  font-family: 'Raleway', sans-serif;
 }
 p {
   text-align: justify;
 }
+
 </style>

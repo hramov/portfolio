@@ -6,7 +6,6 @@
       class="card mb-3"
       v-for="project in projects"
       :key="project.id"
-      style="background-color: #000011 !important"
     >
       <div class="row">
         <div
@@ -14,7 +13,7 @@
           style="margin-top: 20px"
           align="center"
         >
-          <div style="opacity: 50%; background-color: black">
+          <div>
             <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
             <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
             <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />

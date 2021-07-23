@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-bottom: 50px; margin-top: 70px">
+  <div style="margin-bottom: 50px; margin-top: 70px">
     <!-- <HomeHeader /> -->
     <section>
       <Bio class="piece" />
@@ -171,19 +171,8 @@ export default {
 <style scoped>
 .piece {
   margin-bottom: 3rem;
-  border: 1px solid #e4fcce;
+  /* border: 1px solid #e4fcce; */
   padding: 20px;
   border-radius: 10px;
 }
-
-/* section {
-  background-color: black;
-  opacity: 20%;
-}
-
-section:hover {
-  background-color: #000011;
-  opacity: 100%;
-  cursor: pointer;
-} */
 </style>

@@ -4,7 +4,7 @@
     <div class="row" v-for="work in works" :key="work.id">
       <h4>{{ work.title }}</h4>
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" align="center">
-        <div style="opacity: 50%; background-color: black">
+        <div>
           <img v-if="work.id == 1" src="/img/era2.jpg" />
           <img v-else-if="work.id == 2" src="/img/rzd.png" />
         </div>

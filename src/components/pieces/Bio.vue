@@ -3,15 +3,15 @@
     <h2>Биография</h2>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
-        <div style="opacity: 50%; background-color: black">
+        <div>
           <img src="/img/me.jpg" />
         </div>
       </div>
       <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
         <p>
-          Мне 23 года, из которых <strong>более шести</strong> я занимаюсь
+          Мне 24 года, из которых <strong>более шести</strong> я занимаюсь
           программированием в свободное от основной деятельности время. Было
-          перепробовано множество языков: от C/С++ до Python и JS.
+          перепробовано множество языков: от Python и JS до C/С++.
         </p>
         <p>
           Более целенаправленно начал заниматься программированием после
@@ -20,8 +20,8 @@
           разработки на данном стеке <strong>чуть больше года.</strong>
         </p>
         <p>
-          В качестве зарядки для ума изучаю <strong>Golang</strong>, структуры
-          данных и алгоритмы.
+          Пишу серверные приложения на <strong>TypeScript</strong> и <strong>Golang</strong>,
+          фронтенд на <strong>Vue JS</strong> 
         </p>
       </div>
     </div>
