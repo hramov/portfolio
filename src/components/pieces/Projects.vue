@@ -13,7 +13,7 @@
           style="margin-top: 20px"
           align="center"
         >
-          <div style="margin-left: 20px;">
+          <div style="margin-left: 15px; margin-right: 15px;">
             <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
             <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
             <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
