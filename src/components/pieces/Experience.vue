@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container" id="experience">
     <h2>Опыт работы</h2>
     <div class="row" v-for="work in works" :key="work.id">
       <h4>{{ work.title }}</h4>
@@ -17,8 +17,9 @@
         </p>
         <p><strong>Обязанности: </strong>{{ work.description }}</p>
       </div>
+      <hr />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

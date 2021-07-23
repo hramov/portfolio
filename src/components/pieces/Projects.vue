@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container" id="projects">
     <h2>Проекты</h2>
 
     <div
@@ -13,7 +13,7 @@
           style="margin-top: 20px"
           align="center"
         >
-          <div>
+          <div style="margin-left: 20px;">
             <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
             <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
             <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

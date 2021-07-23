@@ -1,13 +1,12 @@
 <template>
-  <div class="container">
-    <h2>Биография</h2>
+  <section class="container" id="bio">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
         <div>
           <img src="/img/me.jpg" />
         </div>
       </div>
-      <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
+      <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 mt-3">
         <p>
           Мне 24 года, из которых <strong>более шести</strong> я занимаюсь
           программированием в свободное от основной деятельности время. Было
@@ -25,7 +24,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

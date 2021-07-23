@@ -1,8 +1,11 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: white">
+  <nav
+    class="navbar navbar-dark navbar-expand-lg fixed-top"
+    style="background-color: white"
+  >
     <div class="container-fluid">
-      <a class="navbar-brand" href="/" style="color: black"
-        >FULL-STACK DEVELOPER PAGE</a
+      <a class="navbar-brand" href="/" style="color: black; font-size: 1.2rem"
+        ><strong>&lt;logo&gt;Hramov FS&lt;/logo&gt;</strong></a
       >
       <button
         class="navbar-toggler"
@@ -13,18 +16,45 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon" style="color: black"></span> -->
+        <i class="fa fa-hamburger" style="color: black"></i>
+        <!-- <p style="color: black;">Открыть</p> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <div class="menu-landing">
+          <div class="nav-item">
+            <a class="nav-link" href="#bio" style="color: black">Обо мне</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="#skills" style="color: black">Навыки</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="#experience" style="color: black"
+              >Опыт работы</a
+            >
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="#projects" style="color: black"
+              >Проекты</a
+            >
+          </div>
+        </div> -->
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
         <form class="d-flex">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- <li class="nav-item">
-              <router-link class="nav-link" to="/blog" tabindex="-1"
-                >Блог</router-link
+            <li class="nav-item nav-link" style="color:black">&lt;menu&gt;</li>
+            <li class="nav-item">
+              <a
+                href="https://t.me/hramovfs"
+                class="nav-link"
+                tabindex="-1"
+                target="_blank"
+                style="color: black"
+                >Блог</a
               >
-            </li> -->
+            </li>
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -35,6 +65,7 @@
                 >Резюме</a
               >
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -47,11 +78,7 @@
               >
                 @therealhramov
               </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                
-              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <div class="row">
                     <div class="col-3">
@@ -114,6 +141,7 @@
                 </li>
               </ul>
             </li>
+            <li class="nav-item nav-link" style="color:black">&lt;/menu&gt;</li>
           </ul>
         </form>
       </div>
@@ -122,9 +150,11 @@
 </template>
 
 <style scoped>
-
+.dropdown-menu {
+  border: none;
+}
 a {
-  color: black
+  color: black;
 }
 li img {
   width: 30px;
@@ -132,8 +162,21 @@ li img {
 }
 
 .dropdown-item:hover {
-  /* background-color: black !important; */
-  /* color:bla !important; */
   text-align: center;
+}
+
+.menu-landing {
+  display: flex;
+  flex-wrap: space-around;
+  margin: 0 auto;
+}
+
+.menu-landing div:hover {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.nav-item a:hover {
+  text-decoration-line: underline;
 }
 </style>

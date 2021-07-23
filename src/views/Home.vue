@@ -1,6 +1,5 @@
 <template>
   <div style="margin-bottom: 50px; margin-top: 70px">
-    <!-- <HomeHeader /> -->
     <section>
       <Bio class="piece" />
     </section>
@@ -61,14 +60,14 @@ export default {
           title: "TypeScript / NestJS",
           yoe: 0.5,
           prCount: 1,
-          confidence: 2,
+          confidence: 6,
         },
         {
           id: 4,
           title: "Golang",
           yoe: 0.5,
           prCount: 1,
-          confidence: 3,
+          confidence: 5,
         },
       ],
       works: [
@@ -170,9 +169,7 @@ export default {
 
 <style scoped>
 .piece {
-  margin-bottom: 3rem;
-  /* border: 1px solid #e4fcce; */
-  padding: 20px;
-  border-radius: 10px;
+  margin-bottom: 50px;
+  /* border-radius: 10px; */
 }
 </style>

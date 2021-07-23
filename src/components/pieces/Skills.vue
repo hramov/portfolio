@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
+  <section class="container" id="skills">
     <h2>Навыки</h2>
     <div class="table-responsive">
       <table class="table table-reflow">
         <thead>
           <tr>
             <th scope="col">Технология</th>
-            <th scope="col">Опыт работы, лет</th>
+            <!-- <th scope="col">Опыт работы, лет</th> -->
             <!-- <th scope="col">Количество проектов, шт</th> -->
             <th scope="col">Уверенность использования</th>
           </tr>
@@ -14,7 +14,7 @@
         <tbody>
           <tr v-for="skill in skills" :key="skill.id">
             <td>{{ skill.title }}</td>
-            <td class="text-center">{{ skill.yoe }}</td>
+            <!-- <td class="text-center">{{ skill.yoe }}</td> -->
             <!-- <td class="text-center">{{ skill.prCount }}</td> -->
             <td>
               <div style="overflow: hidden">
@@ -50,7 +50,7 @@
         </tbody>
       </table>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

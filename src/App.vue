@@ -22,7 +22,14 @@ export default {
 <style>
 * {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+h2 {
+  padding-bottom: 20px;
+}
+
 p {
   text-align: justify;
 }
