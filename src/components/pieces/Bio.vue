@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
         <div>
-          <img src="/img/me.jpg" />
+          <img class="bio" src="/img/newme.jpg" />
         </div>
       </div>
       <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 mt-3">
@@ -22,14 +22,21 @@
           Пишу серверные приложения на <strong>TypeScript</strong> и <strong>Golang</strong>,
           фронтенд на <strong>Vue JS</strong> 
         </p>
+        <!-- <img class="codewars" src="https://www.codewars.com/users/hramov/badges/large" /> -->
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-img {
+.bio {
   width: 250px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.codewars {
+  width: 100%;
   margin-bottom: 10px;
   margin: 0 auto;
 }
