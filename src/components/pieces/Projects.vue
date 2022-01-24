@@ -15,15 +15,16 @@
         >
           <div style="margin-left: 15px; margin-right: 15px;">
             <img v-if="project.id == '1'" src="/img/newser.jpg" alt="..." />
-            <img v-if="project.id == '2'" src="/img/ais.jpg" alt="..." />
-            <img v-if="project.id == '3'" src="/img/altay.jpg" alt="..." />
+            <img v-if="project.id == '2'" src="/img/ais.png" alt="..." />
+            <img v-if="project.id == '3'" src="/img/wishlist.jpeg" alt="..." />
             <img
               v-if="project.id == '4'"
-              src="/img/gazprombank.jpg"
+              src="/img/jobhelper.jpeg"
               alt="..."
             />
-            <img v-if="project.id == '5'" src="/img/genius.jpeg" alt="..." />
-            <img v-if="project.id == '6'" src="/img/battleship.png" alt="..." />
+            <img v-if="project.id == '5'" src="/img/altay.jpg" alt="..." />
+            <img v-if="project.id == '6'" src="/img/gazprombank.jpg" alt="..." />
+            <img v-if="project.id == '7'" src="/img/genius.jpeg" alt="..." />
           </div>
         </div>
         <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
@@ -64,5 +65,6 @@ export default {
 <style scoped>
 img {
   width: 300px;
+  padding-bottom:20px;
 }
 </style>

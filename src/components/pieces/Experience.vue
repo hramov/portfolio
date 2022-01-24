@@ -7,6 +7,7 @@
         <div>
           <img v-if="work.id == 1" src="/img/era2.jpg" />
           <img v-else-if="work.id == 2" src="/img/rzd.png" />
+          <img v-else-if="work.id == 3" src="/img/rzd.png" />
         </div>
       </div>
       <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
@@ -17,7 +18,7 @@
         </p>
         <p><strong>Обязанности: </strong>{{ work.description }}</p>
       </div>
-      <hr />
+      <hr v-if="work.id < works.length" />
     </div>
   </section>
 </template>
