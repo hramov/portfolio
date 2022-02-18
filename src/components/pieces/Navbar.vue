@@ -5,7 +5,7 @@
   >
     <div class="container-fluid">
       <a class="navbar-brand" href="/" style="color: black; font-size: 1.2rem"
-        ><strong>&lt;logo&gt;Hramov FS&lt;/logo&gt;</strong></a
+        ><strong>HramovDEV</strong></a
       >
       <button
         class="navbar-toggler"
@@ -16,35 +16,13 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <!-- <span class="navbar-toggler-icon" style="color: black"></span> -->
         <i class="fa fa-hamburger" style="color: black"></i>
-        <!-- <p style="color: black;">Открыть</p> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- <div class="menu-landing">
-          <div class="nav-item">
-            <a class="nav-link" href="#bio" style="color: black">Обо мне</a>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#skills" style="color: black">Навыки</a>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#experience" style="color: black"
-              >Опыт работы</a
-            >
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#projects" style="color: black"
-              >Проекты</a
-            >
-          </div>
-        </div> -->
-
         <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
         <form class="d-flex">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item nav-link" style="color:black">&lt;menu&gt;</li>
             <li class="nav-item">
               <a
                 href="https://t.me/hramovfs"
@@ -141,7 +119,6 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item nav-link" style="color:black">&lt;/menu&gt;</li>
           </ul>
         </form>
       </div>

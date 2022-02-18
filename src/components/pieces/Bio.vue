@@ -1,22 +1,17 @@
 <template>
   <section class="container" id="bio">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
-        <div>
-          <img class="bio" src="/img/newme.jpg" />
-        </div>
-      </div>
-      <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 mt-3">
+       <!-- <img class="bio" src="/img/newme.jpg" /> -->
+      <div>
         <p>
-          Мне 24 года, из которых <strong>более шести</strong> я занимаюсь
-          программированием в свободное от основной деятельности время. Было
+          Мне 24 года, из которых <strong>более семи</strong> я занимаюсь
+          программированием как в рабочее, так и в свободное от основной деятельности время. Было
           перепробовано множество языков: от Python и JS до C/С++.
         </p>
         <p>
           Более целенаправленно начал заниматься программированием после
           университета. Изучил <strong>JavaScript/NodeJS, VueJS</strong> и
           сопутствующие библиотеки. На текущий момент имею опыт коммерческой
-          разработки на данном стеке <strong>чуть больше года.</strong>
+          разработки на данном стеке <strong>более двух лет.</strong>
         </p>
         <p>
           Пишу серверные приложения на <strong>TypeScript</strong> и <strong>Golang</strong>,
@@ -24,7 +19,6 @@
         </p>
         <!-- <img class="codewars" src="https://www.codewars.com/users/hramov/badges/large" /> -->
       </div>
-    </div>
   </section>
 </template>
 
